@@ -1,0 +1,38 @@
+{
+  "store": {
+    "name": "",
+    "description": "",
+    "location": "",
+    "welcomeMessage": "",
+    "whatsappNumberDigits": "",
+    "whatsappDisplay": "",
+    "hours": null,
+    "minimumOrderCents": null,
+    "deliveryFeeCents": null,
+    "preparationTime": null
+  },
+  "categories": [
+    {
+      "id": "",
+      "name": "",
+      "shortLabel": "",
+      "description": "",
+      "sortOrder": 0
+    }
+  ],
+  "products": [
+    {
+      "id": "",
+      "categoryId": "",
+      "name": "",
+      "description": "",
+      "priceCents": null,
+      "unit": "",
+      "image": null,
+      "badge": "",
+      "availability": "confirmar",
+      "active": true,
+      "sortOrder": 0
+    }
+  ]
+}
