@@ -13,6 +13,12 @@
 
 Manter um mapa curto de evidências durante a execução: `campo → arquivo/link/trecho ou confirmação do cliente → estado (confirmado/pendente)`. Não usar busca pública ou conteúdo de terceiros para preencher campos comerciais faltantes.
 
+## Coleta no início de uma criação nova
+
+- Aplicar somente ao pedido de criar um cardápio novo. Antes do design/código, usar a [mensagem inicial](../templates/solicitacao-inicial-de-criacao.md); considerar tudo que já foi enviado e não solicitar de novo materiais presentes. Em manutenção de site/catálogo existente, reutilizar fontes e decisões aprovadas e perguntar apenas o necessário à mudança.
+- Separar fotos de referência visual de fotos reais dos produtos. Solicitar o manual, o perfil Instagram para branding, imagens de referência e o cardápio oficial. Usar Instagram apenas para identidade visual, nunca para completar sabores/preços sem confirmação explícita de que é a fonte comercial vigente.
+- Receber fotos reais dos produtos por etapas ou em lotes, depois ou durante a organização do catálogo. Para cada arquivo, manter a associação confirmada `foto → sabor`; atualizar apenas o produto identificado, deixar placeholders nos sabores sem foto e não atrasar o restante do trabalho esperando todas as imagens.
+
 ## Extração e conferência do catálogo
 
 1. Ler o menu integralmente; revisar páginas/cortes/zoom quando a imagem ou texto estiver pouco legível.

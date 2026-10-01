@@ -9,7 +9,7 @@ Criar uma experiência de pedido rápida e mobile-first, com conteúdo fiel ao c
 
 ## Fluxo de trabalho
 
-1. **Descobrir escopo e fontes.** Separar referência de navegação, identidade visual, fonte oficial de produtos e material fotográfico. Ler a [ficha de briefing](templates/briefing-cliente.md) e as [regras de fonte e conteúdo](references/fontes-e-conteudo.md). Manter lacunas explícitas; não preencher preços, taxas, horários, disponibilidade, promessas ou contatos por suposição.
+1. **Classificar escopo e coletar fontes.** Se for criar um cardápio novo, antes do design/código enviar a [solicitação inicial de materiais](templates/solicitacao-inicial-de-criacao.md) e preencher a [ficha de briefing](templates/briefing-cliente.md); aproveitar anexos já recebidos e pedir só o que ainda faltar. Se for modificar um cardápio existente, pular essa coleta inicial e pedir somente dados necessários à alteração. Separar referência de navegação, identidade visual, fonte oficial de produtos e fotos. Manter lacunas explícitas; não preencher preços, taxas, horários, disponibilidade, promessas ou contatos por suposição.
 2. **Definir a experiência.** Mapear cabeçalho/contato, categorias, busca, cards, imagens, carrinho, entrega/retirada, meios de pagamento e ação final. Usar o [playbook de implementação](references/implementacao-e-seguranca.md) para arquitetura, modelagem, painel e segurança. Perguntar apenas quando faltar uma decisão que altere materialmente produto, permissões, custos ou fluxo; para detalhes reversíveis, escolher um padrão seguro e documentá-lo.
 3. **Aplicar marca e montar catálogo.** Usar manual, logotipo, tipografia e cores fornecidos. Associar cada foto ao produto identificado pelo cliente; manter placeholders honestos onde faltar imagem. Não converter conteúdo ilustrativo ou social em verdade comercial. Para transformar imagens existentes, seguir `image-processing`; para criar nova imagem, seguir `imagegen` e não substituir fotos reais sem autorização.
 4. **Implementar pedido e painel, se solicitado.** Para site/app novo, seguir as skills Web Dev vigentes e usar `webdev-mcp`. Separar interface pública de API e dados privados. Um “painel próprio” permite ao cliente atualizar catálogo por `/admin` sem abrir Manus para cada alteração; não significa, por si só, hospedagem independente do provedor. Se ele pedir independência total de hospedagem, esclarecer a escolha de infraestrutura antes de migrar.
@@ -28,6 +28,7 @@ Criar uma experiência de pedido rápida e mobile-first, com conteúdo fiel ao c
 ## Recursos desta skill
 
 - Leia a [ficha de briefing](templates/briefing-cliente.md) ao iniciar um novo cliente.
+- Use a [solicitação inicial de materiais](templates/solicitacao-inicial-de-criacao.md) somente ao criar um cardápio novo; fotos dos produtos podem chegar progressivamente.
 - Leia [fontes e conteúdo](references/fontes-e-conteudo.md) quando houver links, redes, manuais, menu ou fotos.
 - Leia [implementação e segurança](references/implementacao-e-seguranca.md) ao criar site, carrinho, WhatsApp, painel ou persistência.
 - Leia [validação e entrega](references/validacao-e-entrega.md) antes de testar, criar checkpoint ou entregar.

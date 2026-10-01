@@ -1,6 +1,6 @@
 # Briefing — Cardápio digital
 
-> Duplicar uma cópia desta ficha para cada cliente. Substituir cada campo com informação fornecida/confirmada pelo cliente. Usar `A confirmar` onde faltar resposta; não copiar conteúdo de outros clientes.
+> Usar a ficha completa somente ao criar um cardápio novo. Para alterações em cardápio existente, consultar o briefing já aprovado e preencher apenas os campos afetados. Substituir campos com informação fornecida/confirmada pelo cliente; usar `A confirmar` onde faltar resposta e nunca copiar conteúdo de outros clientes. A coleta de materiais de criação tem uma mensagem própria em `solicitacao-inicial-de-criacao.md`.
 
 ## Identificação e escopo
 
