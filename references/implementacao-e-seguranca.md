@@ -19,6 +19,12 @@
 - WhatsApp: validar e normalizar o número com DDI/DDD; codificar toda a mensagem em URL; testar os caracteres acentuados e quebras de linha. Abrir `https://wa.me/{numero}?text={texto_codificado}` apenas após ação explícita do comprador. Não alegar que o pedido foi recebido, confirmado ou pago; o cliente ainda precisa rever e enviar no WhatsApp.
 - Se houver pedido mínimo e taxa variável por bairro, decidir se o site consegue calcular sem ambiguidade. Se não, mostrar “a confirmar” e evitar total falso.
 
+### Camadas do carrinho e checkout em telas pequenas
+
+- Ao implementar um carrinho como painel inferior, definir explicitamente a ordem visual e de interação: painel acima do backdrop; backdrop acima do catálogo; botão/barra que abre o carrinho abaixo do painel ou oculto/inativo enquanto o painel estiver aberto; diálogo de checkout acima dessas camadas.
+- Não presumir que um `z-index` alto no painel resolve a sobreposição: ancestrais com `position: sticky`/`fixed`, `transform`, `filter`, `opacity`, `isolation` ou `contain` podem criar contextos de empilhamento/containing blocks. Um filho não escapa do contexto do ancestral; reposicionar/remover o ancestral ou renderizar o painel fora dele quando necessário, em vez de acumular valores arbitrários de `z-index`.
+- Limitar a altura do painel pela viewport dinâmica e manter sua área de conteúdo rolável; reservar espaço inferior para áreas seguras do dispositivo e garantir que o botão de checkout continue visível, alcançável e não coberto por barras fixas. Preservar o comportamento de carrinho sticky em desktop quando apropriado.
+
 ## Painel administrativo próprio
 
 - Separar `/admin` da interface pública. Permitir alterar/criar nome, descrição, preço, categoria, badge/identificador, disponibilidade, visibilidade, ordem e imagem; ocultar/reativar em vez de apagar permanentemente. Permitir configurar número e exibição do WhatsApp, horários, pedido mínimo, taxa e prazo.

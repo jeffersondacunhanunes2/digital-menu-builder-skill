@@ -14,6 +14,7 @@ Criar uma experiência de pedido rápida e mobile-first, com conteúdo fiel ao c
 3. **Aplicar marca e montar catálogo.** Usar manual, logotipo, tipografia e cores fornecidos. Associar cada foto ao produto identificado pelo cliente; manter placeholders honestos onde faltar imagem. Não converter conteúdo ilustrativo ou social em verdade comercial. Para transformar imagens existentes, seguir `image-processing`; para criar nova imagem, seguir `imagegen` e não substituir fotos reais sem autorização.
 4. **Implementar pedido e painel, se solicitado.** Para site/app novo, seguir as skills Web Dev vigentes e usar `webdev-mcp`. Separar interface pública de API e dados privados. Um “painel próprio” permite ao cliente atualizar catálogo por `/admin` sem abrir Manus para cada alteração; não significa, por si só, hospedagem independente do provedor. Se ele pedir independência total de hospedagem, esclarecer a escolha de infraestrutura antes de migrar.
 5. **Validar e entregar.** Validar os contratos entre catálogo, banco, carrinho, checkout e painel usando o [checklist de qualidade](references/validacao-e-entrega.md). Não declarar verificações que não foram executadas.
+   - Se alguém relatar que não consegue concluir um pedido, reproduzir o fluxo ponta a ponta em celular e computador antes de alterar o código; localizar a causa observável (validação, sobreposição/camadas, rolagem, rede ou abertura externa), seguindo os playbooks abaixo. Usar dados fictícios e interceptar `wa.me`; não criar nem enviar um pedido real durante o teste.
 
 ## Regras essenciais
 
